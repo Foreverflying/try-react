@@ -8,12 +8,16 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "debug.javascript.autoExpandGetters": true,
-  "[typescript]": {
+  "[html]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": true
   },
   "[javascript]": {
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
     "editor.insertSpaces": true
   },
   "[json]": {
@@ -31,6 +35,14 @@
       "strings": true
     },
     "editor.suggest.insertMode": "replace"
+  },
+  "[typescript]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
   },
   "[yaml]": {
     "editor.insertSpaces": true,
