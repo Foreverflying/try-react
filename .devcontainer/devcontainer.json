@@ -30,7 +30,8 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
         "firsttris.vscode-jest-runner",
-        "mongodb.mongodb-vscode",
+        "yzhang.markdown-all-in-one",
+        "dbaeumer.vscode-eslint",
         "uctakeoff.vscode-counter"
       ]
     }

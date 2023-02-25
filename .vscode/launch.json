@@ -5,15 +5,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "pwa-node",
+      "name": "Launch Chrome",
       "request": "launch",
-      "name": "Launch Program",
-      "smartStep": true,
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
-      "program": "${workspaceFolder}/src/try/index.ts",
-      "preLaunchTask": "tsc: build - tsconfig.json"
+      "type": "chrome",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}",
+      "userDataDir": false
     }
   ]
 }
